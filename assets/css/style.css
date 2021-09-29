@@ -6,21 +6,64 @@
     border: none;
 }
 
+/* Header */
+
+header {
+    border: 5px dashed rgb(80, 80, 80);
+    margin: 1em 1em;
+    padding: 1em 1em;
+    background-color: lightgreen;
+    height: 3em;
+}
+
 .logo-text {
     font-family: 'Poppins', sans-serif;
+    letter-spacing: 0.5rem;
+    color: rgb(80, 80, 80);
+    float: left;
+    vertical-align: middle;
 }
 
 nav {
     font-family: 'Roboto Slab', serif;
 }
 
+header li {
+    float: right;
+    list-style-type: none;
+    padding-left: 1em;
+    margin-left: 1em;
+    vertical-align: middle;
+    text-align: center;
+    letter-spacing: 0.5rem;
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(30, 30, 30);
+}
+
+header a:hover {
+    color: goldenrod;
+}
+
+.active {
+    border-bottom: 2px solid rgb(30, 30, 30);
+}
+
+/* Home description central section */
+
 .home-description {
     font-family: 'Poppins', sans-serif;    
 }
 
+/* Section with all the walks */
+
 .walk {
     font-family: 'Roboto', sans-serif;
 }
+
+/* Footer */
 
 footer {
     font-family: 'Roboto Condensed', sans-serif;
