@@ -58,7 +58,8 @@ header a:hover:not(.active) {
 }
 
 .active {
-    color:mediumvioletred;
+    /* color:mediumvioletred; */
+    border-bottom: 2px solid maroon;
 }
 
 /* Home description central section */
