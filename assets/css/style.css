@@ -10,25 +10,28 @@
 
 header {
     font-size: x-small;
-    background-color:mintcream;
+    background-color: mintcream;
     margin: 1em 1em;
     padding: 1em 1em;
     height: auto;
-    min-width: 160px; /* bad user experience if smaller */
+    min-width: 160px;
+    /* bad user experience if smaller */
 }
 
 .logo-text {
     font-family: 'Poppins', sans-serif;
-    letter-spacing: 0.3rem;
-    color: maroon;
+    letter-spacing: 0.3em;
+    color: mintcream;
+    font-weight: bold;
     background-color: lightgreen;
     vertical-align: middle;
-    text-align:center;
-    border: 3px solid maroon;
+    text-align: center;
 }
 
 nav {
     font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+    color:maroon;
 }
 
 header li {
@@ -38,7 +41,7 @@ header li {
     margin: 1em 1em;
     vertical-align: middle;
     text-align: center;
-    letter-spacing: 0.5rem;
+    letter-spacing: 0.5em;
 }
 
 header ul {
@@ -47,7 +50,7 @@ header ul {
 
 header a {
     text-decoration: none;
-    color: grey
+    color: maroon;
 }
 
 header a:hover:not(.active) {
@@ -55,13 +58,13 @@ header a:hover:not(.active) {
 }
 
 .active {
-    color: maroon;
+    color:mediumvioletred;
 }
 
 /* Home description central section */
 
 .home-description {
-    font-family: 'Poppins', sans-serif;    
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Section with all the walks */
@@ -73,6 +76,20 @@ header a:hover:not(.active) {
 /* Footer */
 
 footer {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-size: x-small;
+    margin: 1em 1em;
+    padding: 1em 1em;
+    min-width: 160px;
+    /* bad user experience if smaller */
+    height: auto;
 }
 
+footer div {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: mintcream;
+    background-color: maroon;
+    text-align: center;
+    padding: 0.5em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+}
