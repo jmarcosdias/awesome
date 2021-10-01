@@ -6,16 +6,19 @@
     border: none;
 }
 
-/* Header */
+/* --- Header ---------------------------------------------------------------------------------- */
 
 header {
     font-size: x-small;
-    background-color: mintcream;
+    background-color: rgb(133, 220, 228);
+    height: auto;
+
+    /* bad user experience if smaller */
+    min-width: 160px;
+
+    border: solid 1px maroon;
     margin: 1em 1em;
     padding: 1em 1em;
-    height: auto;
-    min-width: 160px;
-    /* bad user experience if smaller */
 }
 
 .logo-text {
@@ -23,7 +26,6 @@ header {
     letter-spacing: 0.3em;
     color: maroon;
     font-weight: bold;
-    background-color: lightgreen;
     vertical-align: middle;
     text-align: center;
 }
@@ -31,7 +33,7 @@ header {
 nav {
     font-family: 'Roboto Slab', serif;
     font-weight: bold;
-    color:maroon;
+    color: maroon;
 }
 
 header li {
@@ -54,43 +56,81 @@ header a {
 }
 
 header a:hover:not(.active) {
-    color: goldenrod;
+    color: rgb(223, 132, 163);
 }
 
 .active {
-    /* color:mediumvioletred; */
     border-bottom: 2px solid maroon;
 }
 
-/* Home description central section */
+/* --- Main ------------------------------------------------------------------------------------ */
 
-.home-description {
+main {
     font-family: 'Poppins', sans-serif;
+    font-size: x-small;
+    text-align: center;
+    vertical-align: top;
+    color: maroon;
+    letter-spacing: 0.5em;
+    height: 400px;
+    margin: 1em 1em;
+    border: solid 1px maroon;
+    position: relative;
+
+    /* bad user experience if smaller */
+    min-width: 160px;
+}
+
+#hero-image {
+    background-image: url('../images/hero-image.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 1px maroon;
+    background-color: mintcream;
+}
+
+#hero-text {
+    text-align: center;
+    width: 10em;
+    height: 11em;
+    position: absolute;
+    bottom: -2em;
+    right: 2em;
+    color: maroon;
+    font-weight: bold;
+    background-color:mintcream;
+    padding: 2em 1em;
+    border: solid 5px orange;
+  }
+
+
+/* Footer */
+
+footer {
+    font-size: xx-small;
+    margin: 1em 1em;
+    padding: 1em 1em;
+    height: auto;
+    border: solid 1px maroon;
+    background-color: rgb(234, 218, 160);
+
+    /* bad user experience if smaller */
+    min-width: 160px;
+}
+
+footer div {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: maroon;
+    text-align: center;
+    padding: 0.5em;
+    font-weight: bold;
+    letter-spacing: 0.2em;
 }
 
 /* Section with all the walks */
 
 .walk {
     font-family: 'Roboto', sans-serif;
-}
-
-/* Footer */
-
-footer {
-    font-size: x-small;
-    margin: 1em 1em;
-    padding: 1em 1em;
-    min-width: 160px;
-    /* bad user experience if smaller */
-    height: auto;
-}
-
-footer div {
-    font-family: 'Roboto Condensed', sans-serif;
-    color: mintcream;
-    background-color: maroon;
-    text-align: center;
-    padding: 0.5em;
-    font-weight: bold;
-    letter-spacing: 0.2em;
 }
