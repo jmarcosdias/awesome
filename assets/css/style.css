@@ -101,10 +101,10 @@ main {
     right: 20px;
     color: maroon;
     font-weight: bold;
-    background-color:mintcream;
+    background-color: mintcream;
     padding: 2em 1em;
     border: solid 5px orange;
-  }
+}
 
 
 /* Footer */
@@ -113,7 +113,7 @@ footer {
     border: solid 1px maroon;
     margin: 1rem 0.5rem;
     padding: 1rem 0.5rem;
-    
+
     height: auto;
     background-color: rgb(234, 218, 160);
 
