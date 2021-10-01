@@ -17,8 +17,8 @@ header {
     min-width: 300px;
 
     border: solid 1px maroon;
-    margin: 1rem 1rem;
-    padding: 1rem 1rem;
+    margin: 1rem 0.5rem;
+    padding: 1rem 0.5rem;
 }
 
 .logo-text {
@@ -39,8 +39,8 @@ nav {
 header li {
     display: inline-block;
     list-style-type: none;
-    padding: 1rem 1rem;
-    margin: 1rem 1rem;
+    margin: 0.5rem 0.5rem;
+    padding: 0.5rem 0.5rem;
     vertical-align: middle;
     text-align: center;
     letter-spacing: 0.5em;
@@ -74,8 +74,9 @@ main {
     letter-spacing: 0.5em;
     height: 400px;
     position: relative;
+
     border: solid 1px maroon;
-    margin: 1rem 1rem;
+    margin: 1rem 0.5rem;
 
     /* bad user experience if smaller */
     min-width: 300px;
@@ -110,8 +111,8 @@ main {
 
 footer {
     border: solid 1px maroon;
-    margin: 1rem 1rem;
-    padding: 1rem 1rem;
+    margin: 1rem 0.5rem;
+    padding: 1rem 0.5rem;
     
     height: auto;
     background-color: rgb(234, 218, 160);
