@@ -14,11 +14,11 @@ header {
     height: auto;
 
     /* bad user experience if smaller */
-    min-width: 160px;
+    min-width: 300px;
 
     border: solid 1px maroon;
-    margin: 1em 1em;
-    padding: 1em 1em;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
 }
 
 .logo-text {
@@ -39,8 +39,8 @@ nav {
 header li {
     display: inline-block;
     list-style-type: none;
-    padding: 1em 1em;
-    margin: 1em 1em;
+    padding: 1rem 1rem;
+    margin: 1rem 1rem;
     vertical-align: middle;
     text-align: center;
     letter-spacing: 0.5em;
@@ -73,21 +73,21 @@ main {
     color: maroon;
     letter-spacing: 0.5em;
     height: 400px;
-    margin: 1em 1em;
-    border: solid 1px maroon;
     position: relative;
+    border: solid 1px maroon;
+    margin: 1rem 1rem;
 
     /* bad user experience if smaller */
-    min-width: 160px;
+    min-width: 300px;
 }
 
 #hero-image {
     background-image: url('../images/hero-image.jpg');
     height: 100%;
+    width: 100%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border: solid 1px maroon;
     background-color: mintcream;
 }
 
@@ -96,8 +96,8 @@ main {
     width: 10em;
     height: 11em;
     position: absolute;
-    bottom: -2em;
-    right: 2em;
+    bottom: -50px;
+    right: 20px;
     color: maroon;
     font-weight: bold;
     background-color:mintcream;
@@ -109,22 +109,22 @@ main {
 /* Footer */
 
 footer {
-    font-size: xx-small;
-    margin: 1em 1em;
-    padding: 1em 1em;
-    height: auto;
     border: solid 1px maroon;
+    margin: 1rem 1rem;
+    padding: 1rem 1rem;
+    
+    height: auto;
     background-color: rgb(234, 218, 160);
 
     /* bad user experience if smaller */
-    min-width: 160px;
+    min-width: 300px;
 }
 
 footer div {
     font-family: 'Roboto Condensed', sans-serif;
     color: maroon;
-    text-align: center;
-    padding: 0.5em;
+    text-align: left;
+    font-size: xx-small;
     font-weight: bold;
     letter-spacing: 0.2em;
 }
