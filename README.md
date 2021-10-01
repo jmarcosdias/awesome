@@ -61,9 +61,9 @@ The live link can be found here - https://jmarcosdias.github.io/awesome/index.ht
 
 ### Content 
 
-- The icons in the navigation menu were taken from [Font Awesome](https://fontawesome.com/)
+- The icons in the navigation menu were taken from [Font Awesome](https://fontawesome.com/).
 
 ### Media
 
-- The photo used on the home page and some other images used in the walks page are free pictures, for commercial and noncommercial use, taken from Pixabay [https://pixabay.com].
-- Other pictures used in the Walks and Get Here pages are non professional photos taken by the developer using his android smartphone.
+- The photo used on the home page and some other images used in the walks page are taken from [Pixabay](https://pixabay.com). These pictures are free for commercial and noncommercial use.
+- Other pictures used in the Walks and in the Get Here pages are non professional photos taken by the developer using his android smartphone.
