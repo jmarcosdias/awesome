@@ -82,7 +82,6 @@ main {
 
     /* bad user experience if smaller */
     min-width: 300px;
-    overflow: auto;
 }
 
 #hero-image {
