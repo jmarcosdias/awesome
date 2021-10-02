@@ -72,7 +72,7 @@ main {
     text-align: center;
     vertical-align: top;
     color: maroon;
-    letter-spacing: 0.5em;
+    letter-spacing: 0.2em;
     height: 400px;
     position: relative;
 
@@ -141,23 +141,25 @@ main {
 }
 
 #walks-outer h2 {
-    margin-top: 2em;
+    margin: 2em 10%;
 }
 
 #walks-outer img {
-    width: 20em;
-    height: 20em;
+    width: 80%;
+    height: auto;
     margin: 2em 2em;
     border: solid 4px rgb(223, 132, 163);
     box-sizing: border-box;
 }
 
 .walk-text {
-    width: 20em;
+    width: 80%;
     height: auto;
     border: solid 4px rgb(133, 220, 228);
     box-sizing: border-box;
     margin: 0 auto;
+    padding: 1em 1em;
+    text-align: justify;
 }
 
 #main-walks {
