@@ -132,7 +132,7 @@ main {
     top: 20%;
 }
 
-.get-here-text > div {
+.get-here-text>div {
     margin: 1em 1em;
 }
 
@@ -207,12 +207,19 @@ footer div {
 
     header a {
         float: left;
-        margin: 0.5rem 0.5rem;
-        padding: 0.5rem 0.5rem;
+        margin: 1em 1em;
+        padding: 0;
     }
 
     header ul {
         float: right;
+        margin: 0;
+        padding: 0;
+    }
+
+    header li {
+        margin: 0 1rem;
+        padding: 0;
     }
 
     main {
