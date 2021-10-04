@@ -2,23 +2,26 @@
 
 ## Purpose
 
-Walking in Cobh website is dedicated to invite people to visit Cobh. It is intended to invite people who love to walk to come to Cobh for their walkings.
+Walking in Cobh website is dedicated to invite people to visit Cobh. It is intended to invite people who love to walk to come to walk in Cobh.
 
-![Responsive Mockup](https://github.com/jmarcosdias/awesome/assets/images/walking-in-cobh-mockup.png)
+![Responsive Mockup](assets/images/walking-in-cobh-mockup.png)
 
 ## Features 
-
-...
 
 ### Existing Features
 
 - __Navigation Menu__
 
-...
+* Located where the user expects this kind of element to be located, i.e. in the top of the page.
+* Same colors and same general appearance all over the pages.
+* Responsive.
+* Gives the users a clue about where they are in the site.
 
 - __The Landing Page__
 
-...
+With a beautiful picture of the Cobh colored houses, this page is inviting the user to come to Cobh, in its main section.
+
+There is a message saying "Come to Cobh" (hero-message) in a positioned div that has an absolute position and is a child of a positioned div that has a relative position and has that picture of the colored houses (hero-image) as its background image. So the hero-message is positioned relative to the hero-image and it is positioned outside of the boundaries of that image, to draw the attention of the user.
 
 - __The Footer__
 
