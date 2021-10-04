@@ -143,14 +143,15 @@ main {
 }
 
 #useful-links {
-    width: 16em;
+    font-size:smaller;
+    width: 15em;
     height: 10em;
     position: absolute;
     bottom: 2vh;
     right: 2vh;
     background-color: mintcream;
     padding: 2em 1em;
-    border: solid 5px orange;
+    border: solid 3px orange;
 }
 
 #useful-links a {
