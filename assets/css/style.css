@@ -100,17 +100,43 @@ main {
 
 #hero-text {
     text-align: center;
-    width: 10em;
-    height: 12em;
+    width: 20em;
+    height: 16em;
     position: absolute;
-    bottom: -50px;
-    right: 20px;
+    bottom: 2vh;
+    right: 2vh;
     color: maroon;
     font-weight: bold;
     background-color: mintcream;
     padding: 2em 1em;
     border: solid 5px orange;
     letter-spacing: 0.5em;
+    animation-name: hero-text-animation;
+    animation-duration: 5s;
+}
+
+#hero-text a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+    animation-name: walks-animation;
+    animation-duration: 10s;
+}
+
+@keyframes hero-text-animation {
+      40%   { bottom: 40vh; }
+      90%   { bottom:  2vh; }
+  }
+
+@keyframes walks-animation {
+    10%   { color: mintcream;; }
+    20%   { color: red; }
+    30%   { color: mintcream;; }
+    40%   { color: red; }
+    50%   { color: mintcream;; }
+    60%   { color: red; }
+    70%   { color: mintcream;; }
+    80%   { color: red; }
 }
 
 #get-here-image {
