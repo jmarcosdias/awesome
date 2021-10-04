@@ -117,10 +117,13 @@ main {
 
 #hero-text a {
     text-decoration: none;
-    color: red;
-    font-weight: bold;
+    color: maroon;
     animation-name: walks-animation;
     animation-duration: 10s;
+}
+
+#hero-text a:hover {
+    color: rgb(223, 132, 163);
 }
 
 @keyframes hero-text-animation {
@@ -137,6 +140,26 @@ main {
     60%   { color: red; }
     70%   { color: mintcream;; }
     80%   { color: red; }
+}
+
+#useful-links {
+    width: 16em;
+    height: 10em;
+    position: absolute;
+    bottom: 2vh;
+    right: 2vh;
+    background-color: mintcream;
+    padding: 2em 1em;
+    border: solid 5px orange;
+}
+
+#useful-links a {
+    text-decoration: none;
+    color: maroon;
+}
+
+#useful-links a:hover {
+    color: rgb(223, 132, 163);
 }
 
 #get-here-image {
