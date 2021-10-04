@@ -12,20 +12,21 @@ Walking in Cobh website is dedicated to invite people to visit Cobh. It is inten
 
 - __Navigation Menu__
 
-* Located where the user expects this kind of element to be located, i.e. in the top of the page.
-* Same colors and same general appearance all over the pages.
-* Responsive.
-* Gives the users a clue about where they are in the site.
+Located where the user expects this kind of element to be located, i.e. in the top of each page, the navigation menu is presented with same colors and same general appearance all over the pages. It is a responsive element and it also gives the users a clue about where they are in the site.
+
+The navigation menu is located in the heading section along with the logo text.
 
 - __The Landing Page__
 
-With a beautiful picture of the Cobh colored houses, this page is inviting the user to come to Cobh, in its main section.
+With a beautiful picture of the Cobh coloured houses, this page in its main section is inviting the user to come to Cobh.
 
-There is a message saying "Come to Cobh" (hero-message) in a positioned div that has an absolute position and is a child of a positioned div that has a relative position and has that picture of the colored houses (hero-image) as its background image. So the hero-message is positioned relative to the hero-image and it is positioned outside of the boundaries of that image, to draw the attention of the user.
+There is a message saying "Come to Cobh" (hero-message) in a positioned div that has an absolute position and is a child of a positioned div that has a relative position. That parent div is the one with the picture of the coloured houses (hero-image) as its background image. So the hero-message is positioned relative to the hero-image and it is purposefully positioned crossing the boundaries of that image, to draw the user's attention.
 
 - __The Footer__
 
-...
+The footer is very simple and with a small copyright text. This text is less relevant in relation to the rest of the website so it is always smaller than the text in the main section and in the heading section.
+
+The footer has the same colors and appearance all over the website, like the header.
 
 - __The Walks Page__
 
