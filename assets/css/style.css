@@ -176,14 +176,16 @@ main {
     text-align: center;
     width: 100%;
     color: mintcream;
+    font-size:small;
     font-weight: bold;
     background-color: rgb(223, 132, 163, 0.95);
     border: solid 5px rgb(133, 220, 228);
     box-sizing: border-box;
     position: absolute;
     vertical-align: middle;
-    top: 23%;
-    height: 54%;
+    top: 10%;
+    height: 80%;
+    padding-top: 1em;
 }
 
 .get-here-text > div {
@@ -298,11 +300,6 @@ footer div {
         font-size: small;
     }
 
-    .get-here-text {
-        top: 15%;
-        height: 70%;
-    }
-
     footer-div {
         font-size: x-small;
     }
@@ -317,11 +314,6 @@ footer div {
 
     main {
         font-size: medium;
-    }
-
-    .get-here-text {
-        top: 8%;
-        height: 84%;
     }
 
     footer-div {
