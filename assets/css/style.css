@@ -100,11 +100,11 @@ main {
 
 #hero-text {
     text-align: center;
-    width: 20em;
-    height: 16em;
+    width: 19em;
+    height: 15em;
     position: absolute;
-    bottom: 2vh;
-    right: 2vh;
+    top: 2vh;
+    left: 2vh;
     color: maroon;
     font-weight: bold;
     background-color: mintcream;
@@ -124,8 +124,8 @@ main {
 }
 
 @keyframes hero-text-animation {
-      40%   { bottom: 40vh; }
-      90%   { bottom:  2vh; }
+      1%    { top: 40vh; }
+      90%   { top:  2vh; }
   }
 
 @keyframes walks-animation {
