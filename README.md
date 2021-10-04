@@ -2,7 +2,9 @@
 
 ## Purpose
 
-...
+Walking in Cobh website is dedicated to invite people to visit Cobh. It is intended to invite people who love to walk to come to Cobh for their walkings.
+
+![Responsive Mockup](https://github.com/jmarcosdias/awesome/assets/images/walking-in-cobh-mockup.png)
 
 ## Features 
 
