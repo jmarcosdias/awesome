@@ -26,7 +26,7 @@ In the HTML, the hero-text is a div that is a child of the hero-image div.
 
 In the CSS, hero-image is positioned with a relative position and hero-text is positioned with an absolute position. This way hero-text is positioned in relation to hero-image.
 
-In the HTML, there is also an aside, with id useful-links, child of hero-image. 
+In the HTML, there is also an aside, with id useful-links, child of hero-image. This is to provide some external links with information that might interest the user. 
 
 In the CSS, that aside is styled to appear clearly less important than hero-text. It is smaller, not animated, the border is thinner, the stack order is smaller (z-index) and it is positioned in a less priority position in the page.
 
@@ -48,11 +48,18 @@ The classes defined in the HTML are then used in the CSS code to style the borde
 
 - __The Get Here Page__
 
+The Get Here page contains some external links to public transports in Cobh and a map to help the user to get in Cobh. 
 
+The colors that appear on the other two pages are used here to enhance the user experience.
+
+Thanks to Google for the Google Map of Cobh that is placed here by using an iframe.
 
 ### Features Left to Implement
 
-...
+In a future release it is possible and expected that more walks will be added to the Walks page.
+
+A survey to collect user's feedback is something that can also be included later. 
+
 
 ## Testing 
 
