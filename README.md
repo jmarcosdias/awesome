@@ -4,7 +4,7 @@
 
 Walking in Cobh website is dedicated to invite people to visit Cobh. It is intended to invite people who love to walk to come to walk in Cobh.
 
-![Responsive Mockup](assets/images/walking-in-cobh-mockup.png)
+![Responsive Mockup](assets/images/index-mockup.png)
 
 ## Features 
 
@@ -12,15 +12,21 @@ Walking in Cobh website is dedicated to invite people to visit Cobh. It is inten
 
 - __Navigation Menu__
 
-Located where the user expects this kind of element to be located, i.e. in the top of each page, the navigation menu is presented with same colors and same general appearance all over the pages. It is a responsive element and it also gives the users a clue about where they are in the site.
+Located where the user expects this kind of element to be located, i.e. on the top of each page, the navigation menu is presented with same colors and same general appearance all over the pages. It is a responsive element and it also gives the users a clue about where they are in the site.
 
-The navigation menu is located in the header section along with the logo text.
+In terms of HTML structure, the navigation menu is a NAV element located in the header section of each page, along with the logo text.
 
 - __The Landing Page__
 
 With a beautiful picture of the Cobh coloured houses, the main section of this page is inviting the user to come to Cobh.
 
-There is a message saying "Come to Cobh" (hero-message) in a positioned div that has an absolute position and is a child of a positioned div that has a relative position. That parent div is the one with the coloured houses picture (hero-image) as its background image. So the hero-message is positioned relative to the hero-image and it is purposefully positioned crossing the boundaries of that image, to draw the user's attention.
+There is a message popping up saying "Come to Cobh" (hero-text). This is the most important message of the landing page. 
+
+In the HTML, the hero-text is a div that is a child of the hero-image div. 
+
+In the CSS, hero-image is positioned with a relative position and hero-text is positioned with an absolute position. This way hero-text is positioned in relation to hero-image.
+
+There is also an aside, named useful-links, child of hero-image. In the CSS, this aside is styled to appear clearly less important than hero-text. It is smaller, not animated, the border is thinner, the stack order is smaller (z-index) and it is positioned in a less priority position in the page.
 
 - __The Footer__
 
