@@ -12,6 +12,16 @@
 </head>
 
 <body>
+    <!-- 
+        Header Section 
+
+        This section contains:
+        1) The logo text
+        2) The navigation menu   
+        
+        This section is almost the same in all pages. The only difference is
+        the class="active" in the <i> element corresponding to the page. 
+     -->
     <header>
         <a href="index.html">
             <h1 class="logo-text">Walking in Cobh</h1>
@@ -33,9 +43,21 @@
             </ul>
         </nav>
     </header>
+    <!-- 
+        Main Section 
+
+        This is the main-walks section. It contains a walks-outer 
+        element that contains all the walk elements.
+
+        Each walk element represents a piece of walk. The set of walk
+        elements here in this page represents the whole tour.
+
+        Each walk element is composed of a heading, a walk-text and 
+        two images.
+     -->
     <main id="main-walks">
         <div id="walks-outer">
-            <div>
+            <div class="walk">
                 <h2>From the Train Station to the Promenade</h2>
                 <div class="walk-text">This is a very quick stroll. If you get in Cobh by train, the promenade is a good
                     starting point for your journey. From the promenade, you can go everywhere in Cobh and you can
@@ -45,7 +67,7 @@
                 <img src="assets/images/cork-harbour.jpg" alt="River estuary, bird and blue sky">
 
             </div>
-            <div>
+            <div class="walk">
                 <h2>From the Promenade to the Cathedral</h2>
                 <div class="walk-text">Walking up the steep streets of Cobh, you can get a little tired, but the way
                     will never be too long.
@@ -55,7 +77,7 @@
                 <img src="assets/images/west-view.jpg" alt="Very steep hill with colored houses">
                 <img src="assets/images/cathedral.png" alt="Beautiful cathedral and blue sky">
             </div>
-            <div>
+            <div class="walk">
                 <h2>From the Promenade to the Titanic Memorial Garden</h2>
                 <div class="walk-text">Walk east and in a few minutes you will get there. It is a nice and easy walk.
                     Enjoy your journey and the landscape.</div>
@@ -67,13 +89,19 @@
         </div>
 
     </main>
+
+    <!-- 
+        Footer Section
+
+        This section is exactly the same in all pages.
+     -->
     <footer>
         <div>
             <p>© 2021 Walking in Cobh</p>
         </div>
     </footer>
 
-    <!-- font awesome script  -->
+    <!-- Font awesome script  -->
     <script src="https://kit.fontawesome.com/5e03710f98.js" crossorigin="anonymous"></script>
 </body>
 
