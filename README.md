@@ -14,7 +14,7 @@ Walking in Cobh website is dedicated to invite people to visit Cobh. It is inten
 
 Located where the user expects this kind of element to be located, i.e. on the top of each page, the navigation menu is presented with same colors and same general appearance all over the pages. It is a responsive element and it also gives the users a clue about where they are in the site.
 
-In terms of HTML structure, the navigation menu is a NAV element located in the header section of each page, along with the logo text.
+In terms of HTML structure, the navigation menu is a NAV element located in the header section of each page, along with the logo text which is a heading level 1 element.
 
 - __The Landing Page__
 
@@ -26,7 +26,11 @@ In the HTML, the hero-text is a div that is a child of the hero-image div.
 
 In the CSS, hero-image is positioned with a relative position and hero-text is positioned with an absolute position. This way hero-text is positioned in relation to hero-image.
 
-There is also an aside, named useful-links, child of hero-image. In the CSS, this aside is styled to appear clearly less important than hero-text. It is smaller, not animated, the border is thinner, the stack order is smaller (z-index) and it is positioned in a less priority position in the page.
+In the HTML, there is also an aside, named useful-links, child of hero-image. 
+
+In the CSS, that aside is styled to appear clearly less important than hero-text. It is smaller, not animated, the border is thinner, the stack order is smaller (z-index) and it is positioned in a less priority position in the page.
+
+Like hero-text, the useful-links element is positioned in relation to hero-image.
 
 - __The Footer__
 
