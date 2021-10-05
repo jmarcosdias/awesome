@@ -12,6 +12,16 @@
 </head>
 
 <body>
+    <!-- 
+        Header Section 
+
+        This section contains:
+        1) The logo text
+        2) The navigation menu   
+        
+        This section is almost the same in all pages. The only difference is
+        the class="active" in the <i> element corresponding to the page. 
+     -->
     <header>
         <a href="index.html">
             <h1 class="logo-text">Walking in Cobh</h1>
@@ -33,7 +43,23 @@
             </ul>
         </nav>
     </header>
-    <main>
+
+    <!-- 
+        Main Section 
+
+        This is the main-get-here section. It contains an element with 
+        some information on how to get in cobh, followed by a map of 
+        cobh. 
+
+        Here is the detail of how this section is structured:
+        
+        1) The get-here-image div contains a get-here-text div with 
+           some textual information and links about how to get in cobh.
+
+        2) The cobh-map-outer div contains a cobh-map div with an iframe 
+           with a google maps map of cobh.
+     -->
+    <main id="main-get-here">
         <div id="get-here-image">
             <div class="get-here-text">
                 <em>Some ways you can get to Cobh</em>
@@ -62,13 +88,19 @@
             </iframe>
         </div>
     </div>
+
+    <!-- 
+        Footer Section
+
+        This section is exactly the same in all pages.
+     -->
     <footer>
         <div>
             <p>© 2021 Walking in Cobh</p>
         </div>
     </footer>
 
-    <!-- font awesome script  -->
+    <!-- Font awesome script  -->
     <script src="https://kit.fontawesome.com/5e03710f98.js" crossorigin="anonymous"></script>
 </body>
 
