@@ -26,7 +26,7 @@ In the HTML, the hero-text is a div that is a child of the hero-image div.
 
 In the CSS, hero-image is positioned with a relative position and hero-text is positioned with an absolute position. This way hero-text is positioned in relation to hero-image.
 
-In the HTML, there is also an aside, named useful-links, child of hero-image. 
+In the HTML, there is also an aside, with id useful-links, child of hero-image. 
 
 In the CSS, that aside is styled to appear clearly less important than hero-text. It is smaller, not animated, the border is thinner, the stack order is smaller (z-index) and it is positioned in a less priority position in the page.
 
@@ -40,11 +40,15 @@ The footer has the same colors and appearance all over the website, like the hea
 
 - __The Walks Page__
 
-...
+The walks page contains the set of short walks that are suggested to the user.
+
+In terms of HTML, each walk is a div element with a class walk. It has a heading level 2 element, which is the heading of the walk, followed by a div with a class walk-text, with some text commenting the walk and finally there are two images related to the walk.
+
+The classes defined in the HTML are then used in the CSS code to style the borders, margins, padding, font and colours so that this section looks integrated in the rest of the website.
 
 - __The Get Here Page__
 
-...
+
 
 ### Features Left to Implement
 
