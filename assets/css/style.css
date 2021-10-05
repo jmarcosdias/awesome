@@ -112,14 +112,14 @@ main {
     border: solid 5px orange;
     letter-spacing: 0.5em;
     animation-name: hero-text-animation;
-    animation-duration: 5s;
+    animation-duration: 15s;
 }
 
 #hero-text a {
     text-decoration: none;
     color: maroon;
     animation-name: walks-animation;
-    animation-duration: 10s;
+    animation-duration: 15s;
 }
 
 #hero-text a:hover {
@@ -127,19 +127,31 @@ main {
 }
 
 @keyframes hero-text-animation {
-      1%    { top: 40vh; }
-      90%   { top:  2vh; }
+      0%    { top: 40vh; }
+      25%   { top: 10vh; }
+      45%   { top: 36vh; }
+      60%   { top:  6vh; }
+      70%   { top: 32vh; }
+      75%   { top:  2vh; }
   }
 
 @keyframes walks-animation {
+     0%   { color: mintcream;; }
+     5%   { color: red; }
     10%   { color: mintcream;; }
-    20%   { color: red; }
+    15%   { color: red; }
+    20%   { color: mintcream;; }
+    25%   { color: red; }
     30%   { color: mintcream;; }
-    40%   { color: red; }
+    35%   { color: red; }
+    40%   { color: mintcream;; }
+    45%   { color: red; }
     50%   { color: mintcream;; }
-    60%   { color: red; }
+    55%   { color: red; }
+    60%   { color: mintcream;; }
+    65%   { color: red; }
     70%   { color: mintcream;; }
-    80%   { color: red; }
+    75%   { color: red; }
 }
 
 #useful-links {
