@@ -6,20 +6,22 @@
     border: none;
 }
 
-/* --- Header ---------------------------------------------------------------------------------- */
+/****************************************************************************************
+Header section for all pages                                                    
+****************************************************************************************/
 
 header {
     font-size: x-small;
     background-color: rgb(133, 220, 228);
     height: auto;
+    margin: 1rem 0.5rem;
+    padding: 1rem 0.5rem;
+    border: solid 1px maroon;
+    box-sizing: border-box;
 
     /* bad user experience if smaller */
     min-width: 300px;
-
-    border: solid 1px maroon;
-    box-sizing: border-box;
-    margin: 1rem 0.5rem;
-    padding: 1rem 0.5rem;
+    min-height:120px;
 }
 
 .logo-text {
@@ -64,7 +66,9 @@ header a:hover:not(.active) {
     border-bottom: 2px solid maroon;
 }
 
-/* --- Main ------------------------------------------------------------------------------------ */
+/****************************************************************************************
+Main section for all pages                                                 
+****************************************************************************************/
 
 main {
     font-family: 'Poppins', sans-serif;
@@ -82,10 +86,15 @@ main {
 
     /* bad user experience if smaller */
     min-width: 300px;
+    min-height: 400px;
 }
 
+/****************************************************************************************
+Main section for the Home page                                                  
+****************************************************************************************/
+
 #main-home {
-    height:75vh;
+    height:70vh;
 }
 
 #hero-image {
@@ -179,6 +188,46 @@ main {
     color: rgb(223, 132, 163);
 }
 
+/****************************************************************************************
+Main section for the Walks page                                                  
+****************************************************************************************/
+
+#main-walks {
+    font-family: 'Roboto', sans-serif;
+    height: auto;
+    padding-bottom: 2em;
+}
+
+#walks-outer h2 {
+    margin: 2em 5%;
+    border: solid 4px  rgb(223, 132, 163);
+    padding: 1em 1em;
+    box-sizing: border-box;
+}
+
+#walks-outer img {
+    width: 80%;
+    height: auto;
+    max-width: 400px;
+    margin: 2em 2em;
+    border: solid 4px rgb(223, 132, 163);
+    box-sizing: border-box;
+}
+
+.walk-text {
+    width: 80%;
+    height: auto;
+    border: solid 2px rgb(133, 220, 228);
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 1em 1em;
+    text-align: justify;
+}
+
+/****************************************************************************************
+Main section for the Get Here page                                                  
+****************************************************************************************/
+
 #get-here-image {
     background-image: url('../images/get-here.png');
     height: 100%;
@@ -231,45 +280,15 @@ main {
     height:100%;
 }
 
-#walks-outer h2 {
-    margin: 2em 5%;
-    border: solid 4px  rgb(223, 132, 163);
-    padding: 1em 1em;
-    box-sizing: border-box;
-}
-
-#walks-outer img {
-    width: 80%;
-    height: auto;
-    max-width: 400px;
-    margin: 2em 2em;
-    border: solid 4px rgb(223, 132, 163);
-    box-sizing: border-box;
-}
-
-.walk-text {
-    width: 80%;
-    height: auto;
-    border: solid 2px rgb(133, 220, 228);
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 1em 1em;
-    text-align: justify;
-}
-
-#main-walks {
-    height: auto;
-    padding-bottom: 2em;
-}
-
-/* Footer */
+/****************************************************************************************
+Footer section for all pages                                                  
+****************************************************************************************/
 
 footer {
     border: solid 1px maroon;
     box-sizing: border-box;
     margin: 1rem 0.5rem;
     padding: 1rem 0.5rem;
-
     height: auto;
     background-color: rgb(234, 218, 160);
 
@@ -286,13 +305,10 @@ footer div {
     letter-spacing: 0.2em;
 }
 
-/* Section with all the walks */
+/****************************************************************************************
+Rules for screen sizes from 900px wide and up                                               
+****************************************************************************************/
 
-.walk {
-    font-family: 'Roboto', sans-serif;
-}
-
-/* For screen sizes from 900px wide and up */
 @media screen and (min-width: 900px) {
 
     header {
@@ -326,7 +342,10 @@ footer div {
     }
 }
 
-/* For screen sizes from 1200px wide and up */
+/****************************************************************************************
+Rules for screen sizes from 1200px wide and up                                              
+****************************************************************************************/
+
 @media screen and (min-width: 1200px) {
 
     header {
