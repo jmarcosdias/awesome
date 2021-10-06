@@ -34,17 +34,20 @@ In regard to the position attribute of useful-links and the position attribute o
 
 - __The Footer__
 
-The footer is very simple and with a small copyright text. This text is less relevant in relation to the rest of the website so it is always smaller than the text in the main section and in the header section.
+The footer is a very simple element with a small copyright text. This text is less relevant in relation to the rest of the website, so it is always with a font smaller than the one used in the main and header sections. This will likely favor the user experience.
 
 The footer has the same colours and appearance all over the website, like the header.
 
 - __The Walks Page__
 
-The walks page contains the set of short walks that are suggested to the user.
+The walks page contains the set of short walks suggested to the users. The idea is that the users will browse this page, see the pictures, read some text if they like and then decide where they want to walk. The first version of Walking in Cobh has only three walks. More walks are expected to be added in further releases.
 
-In terms of HTML, each walk is a div element with a class walk. It has a heading level 2 element, which is the heading of the walk, followed by a div with a class walk-text, with some text commenting the walk and finally there are two images related to the walk.
+In terms of HTML, each walk is a \<div\> element with class of walk. It has the following elements inside, in this order:
+1. A heading level 2 element. This is the heading of the walk
+2. A \<div\> element with a class of walk-text. This element contains some text about this walk
+3. Two images related to the walk
 
-The classes defined in the HTML are then used in the CSS code to style the borders, margins, padding, font and colours so that this section looks integrated in the rest of the website.
+The classes defined in the HTML are then used in the CSS code to style the borders, margins, padding, font and colours used in the Walks page, so that this page looks good and harmonizes with the rest of the website.
 
 - __The Get Here Page__
 
