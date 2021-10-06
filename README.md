@@ -137,8 +137,7 @@ The website was deployed to GitHub pages. The steps to deploy are as follows.
 
 In the GitHub repository:
   - Navigate to the Settings tab 
-  - Scroll down to the GitHub Pages section
-  - Click on "Check it out here!"
+  - Click on the Pages on the bottom of the left menu
   - Go to the source section drop-down menu
   - Select the main branch 
   - Save this change
