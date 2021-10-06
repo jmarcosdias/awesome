@@ -14,7 +14,7 @@ Walking in Cobh website is dedicated to invite people to visit Cobh. It is inten
 
 Located where the user expects this kind of element to be, i.e. on the top of each page, the navigation menu is presented with same colours and same general appearance all over the pages. It is a responsive element and it also gives the users a clue about where they are in the website.
 
-In terms of HTML structure, the navigation menu is a <nav> element, located in the header section of each page, along with the logo text which is a heading level 1 element.
+In terms of HTML structure, the navigation menu is a \<nav\> element, located in the header section of each page, along with the logo text which is a heading level 1 element.
 
 - __The Landing Page__
 
@@ -22,7 +22,7 @@ With a beautiful picture of some Cobh coloured houses, the main section of this 
 
 There is a message popping up saying "Come to Cobh" (hero-text). This is the most important message of the entire website. 
 
-In the HTML, the hero-text is a <div> element that is a child of the hero-image <div>.
+In the HTML, the hero-text is a \<div\> element that is a child of the hero-image \<div\>.
 
 In the CSS, hero-image is positioned with a relative position while hero-text is positioned with an absolute position. This makes hero-text to be positioned in relation to hero-image.
 
