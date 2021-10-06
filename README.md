@@ -4,7 +4,7 @@
 
 Walking in Cobh website is dedicated to invite people to visit Cobh. It is intended to invite people who love to walk to come to walk in Cobh.
 
-![Responsive Mockup](assets/images/index-mockup.png)
+![Responsive Mockup](assets/images/tst-index-mockup.png)
 
 ## Features 
 
