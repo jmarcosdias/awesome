@@ -177,8 +177,10 @@ The map inside the Get Here page is an iFrame with the Google Map of Cobh:
 ### External Links
 
 - The following external links are used in the Home page:
-    - <a href="http://www.visitcobh.com/" target="_blank">Visit Cobh</a> (http://www.visitcobh.com/)
-    - <a href="https://purecork.ie/plan-your-trip/about-cork/destinations/cobh" target="_blank">Pure Cork: plan your trip to Cobh</a> (https://purecork.ie/plan-your-trip/about-cork/destinations/cobh)
+    - <a href="http://www.visitcobh.com/" target="_blank">Visit Cobh</a> 
+      - http://www.visitcobh.com/
+    - <a href="https://purecork.ie/plan-your-trip/about-cork/destinations/cobh" target="_blank">Pure Cork: plan your trip to Cobh</a> 
+      - https://purecork.ie/plan-your-trip/about-cork/destinations/cobh
 
 - The external links below are used in the Get Here page:
   - <a href="https://www.irishrail.ie/en-ie/station/cobh" target="_blank">Irish Rail</a> 
