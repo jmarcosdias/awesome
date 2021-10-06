@@ -43,19 +43,19 @@ The footer has the same colours and appearance all over the website, like the he
 The walks page contains the set of short walks suggested to the users. The idea is that the users will browse this page, see the pictures, read some text if they like and then decide where they want to walk. The first version of Walking in Cobh has only three walks. More walks are expected to be added in further releases.
 
 In terms of HTML, each walk is a \<div\> element with class of walk. It has the following elements inside, in this order:
-1. A heading level 2 element. This is the heading of the walk
-2. A \<div\> element with a class of walk-text. This element contains some text about this walk
-3. Two images related to the walk
+1. A heading level 2 element. This is the heading of the walk.
+2. A \<div\> element with a class of walk-text. This element contains some text about the walk.
+3. Two images related to the walk.
 
 The classes defined in the HTML are then used in the CSS code to style the borders, margins, padding, font and colours used in the Walks page, so that this page looks good and harmonizes with the rest of the website.
 
 - __The Get Here Page__
 
-The Get Here page contains some external links to public transports in Cobh and a map to help the user to get in Cobh. 
+The Get Here page contains:
+1. Some external links to Cobh public transportation websites 
+2. A map to help the user to get in Cobh. This map allows the user to initiate and control actions such as zoom in, zoom out and drag the map in any direction. Walking in Cobh  thanks Google for this map.
 
-The colours that appear on the other two pages are used here to enhance the user experience.
-
-Thanks to Google for the Google Map of Cobh that is placed here by using an iframe.
+The colours that appear on the other two pages are used here in this page. This hopefully makes the user experience more familiar and enjoyable.
 
 ### Features Left to Implement
 
@@ -122,7 +122,7 @@ Test Result: Success.
 
 ### Unfixed Bugs
 
-The Walking in Cobh website does not look good in Internet Explorer, on a laptop at least. If for some reason is required to use Internet Explorer, this issue must be investigated.
+The Walking in Cobh website does not look good using Internet Explorer, at least on a laptop. If for some reason Walking in Cobh is required to be used with Internet Explorer, this issue must be investigated.
 
 ## Deployment
 
