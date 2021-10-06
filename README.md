@@ -119,26 +119,51 @@ Test Result: Success.
 
 ### Unfixed Bugs
 
-The Walking in Cobh website does not seem to look good when using Internet Explorer in a laptop. If for some reason is required to use Internet Explorer, this issue must be investigated.
+The Walking in Cobh website does not look good in Internet Explorer on a laptop, at least. If for some reason is required to use Internet Explorer, this issue must be investigated.
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows:
-  - In the GitHub repository, 
-  - Navigate to the Settings tab 
-  - Scroll down to the GitHub Pages tab
-  - 
-  - From the source section drop-down menu, select the main branch and then Save this change.
+The site was deployed to GitHub pages. The steps to deploy are as follows. 
 
-The live link can be found here - https://jmarcosdias.github.io/awesome/index.html 
+In the GitHub repository:
+  - Navigate to the Settings tab 
+  - Scroll down to the GitHub Pages section
+  - Click on "Check it out here!"
+  - Go to the source section drop-down menu
+  - Select the main branch 
+  - Save this change
+
+The live link for the Walk in Cobh website can be found [here](https://jmarcosdias.github.io/awesome/).
 
 ## Credits 
 
 ### Content 
 
-- The icons in the navigation menu were taken from [Font Awesome](https://fontawesome.com/).
+- The icons in the navigation menu were taken from [Font Awesome](https://fontawesome.com/)
+  - https://fontawesome.com/v5.15/icons/home?style=solid
+  - https://fontawesome.com/v5.15/icons/walking?style=solid
+  - https://fontawesome.com/v5.15/icons/plane-arrival?style=solid
 
 ### Media
 
-- The photo used on the home page and some other images used in the walks page are taken from [Pixabay](https://pixabay.com). These pictures are free for commercial and noncommercial use.
-- Other pictures used in the Walks and in the Get Here pages are non professional photos taken by the developer using his android smartphone.
+- The following pictures were taken from [Pixabay](https://pixabay.com). These pictures are free for commercial and noncommercial use.
+
+  - https://pixabay.com/photos/cobh-cove-houses-pastel-285147/
+  <span><img src="https://pixabay.com/photos/cobh-cove-houses-pastel-285147/" alt="Icon with a home, used in the Home page" width="40"/></span>
+  
+  - https://pixabay.com/photos/west-view-house-terrace-cobh-cork-2333252/
+  <span><img src="https://pixabay.com/photos/cobh-cove-houses-pastel-285147/" alt="Icon with a home, used in the Home page" width="40"/></span>
+  
+  - https://pixabay.com/illustrations/hexagon-diamond-leisure-traveller-1743535/
+  <span><img src="https://pixabay.com/photos/cobh-cove-houses-pastel-285147/" alt="Icon with a home, used in the Home page" width="40"/></span>
+
+- Other pictures used in the Walks page are non professional photos taken by the developer using his android smartphone.
+
+### iFrame
+
+The map in the Get Here page is an iFrame with a Google Map.
+- https://maps.google.com/maps?q=Cobh,Ireland&output=embed
+
+### External Links
+
+
