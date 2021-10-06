@@ -93,13 +93,13 @@ Test Result: Success.
 
 With different display resolutions, the test was successful in the following browsers:
 
-* Google Chrome Version 94.0.4606.71
-* Microsoft Edge Version 94.0.992.38
-* Firefox Version 93.0
+* Google Chrome Version 94.0.4606.71.
+* Microsoft Edge Version 94.0.992.38.
+* Firefox Version 93.0.
 
 Test Result: 
-* Success in Google Chrome, Microsoft Edge and Firefox
-* In the Internet Explorer, the website does not look good
+* Success in Google Chrome, Microsoft Edge and Firefox.
+* In the Internet Explorer, the website does not look good.
 
 ### Am I Responsive Website
 
@@ -114,12 +114,12 @@ Test Result: Success.
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing the URI of the three pages through the official [W3C Validator](https://validator.w3.org/)
+  - No errors were returned when passing the URI of the three pages through the official [W3C Validator](https://validator.w3.org/):
     - https://validator.w3.org/nu/?doc=https%3A%2F%2Fjmarcosdias.github.io%2Fawesome%2Findex.html
     - https://validator.w3.org/nu/?doc=https%3A%2F%2Fjmarcosdias.github.io%2Fawesome%2Fwalks.html
     - https://validator.w3.org/nu/?doc=https%3A%2F%2Fjmarcosdias.github.io%2Fawesome%2Fget-here.html
 - CSS
-  - No errors were found when passing the URI of the styles.css file through the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/)
+  - No errors were found when passing the URI of the styles.css file through the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/):
     - https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjmarcosdias.github.io%2Fawesome%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
 ### Unfixed Bugs
