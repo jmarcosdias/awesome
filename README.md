@@ -63,7 +63,24 @@ A survey to collect user's feedback is something that can also be included later
 
 ## Testing 
 
-...
+The test approach was to validate in different browsers and devices, navigating, scrolling, clicking in every link, zooming in and out in the Cobh map and changing the size of the viewport, to make sure the website is working and looking good in every situation. 
+
+### Laptop
+
+With different display resolutions, the test was successful in the following browsers:
+
+* Google Chrome Version 94.0.4606.71
+* Microsoft Edge Version 94.0.992.38
+* Firefox Version Version 94.0.992.38
+
+### Mobile Phone
+
+Test performed and got a successful result using Google Chrome Version 94.0.4606.61 in a smartphone Huawei Mate 20 Lite.
+
+As an example of the tests performed in different devices, the images below show the tests on a smartphone.
+
+
+
 
 ### Validator Testing 
 
