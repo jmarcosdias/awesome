@@ -148,15 +148,15 @@ The live link for the Walk in Cobh website can be found [here](https://jmarcosdi
 
 - The following pictures were taken from [Pixabay](https://pixabay.com). These pictures are free for commercial and noncommercial use.
 
-  - https://pixabay.com/photos/cobh-cove-houses-pastel-285147/
-  <span><img src="https://pixabay.com/photos/cobh-cove-houses-pastel-285147/" alt="Icon with a home, used in the Home page" width="40"/></span>
-  
-  - https://pixabay.com/photos/west-view-house-terrace-cobh-cork-2333252/
-  <span><img src="https://pixabay.com/photos/cobh-cove-houses-pastel-285147/" alt="Icon with a home, used in the Home page" width="40"/></span>
-  
+  - https://pixabay.com/photos/cobh-cove-houses-pastel-285147/  
+    <img src="assets/images/hero-image.jpg" alt="Eight coloured houses in a row and six more coloured houses in a row below" width="100"/>
+    
+  - https://pixabay.com/photos/west-view-house-terrace-cobh-cork-2333252/ 
+    <img src="assets/images/west-view.jpg" alt="Very steep hill with colored houses" width="100"/>
+    
   - https://pixabay.com/illustrations/hexagon-diamond-leisure-traveller-1743535/
-  <span><img src="https://pixabay.com/photos/cobh-cove-houses-pastel-285147/" alt="Icon with a home, used in the Home page" width="40"/></span>
-
+    <img src="assets/images/get-here.png" alt="An hexagonal picture showing different icons for car, train, plane, bus, boat and a person seated with a clock in the wall given the impression this person is waiting" width="100"/> 
+  
 - Other pictures used in the Walks page are non professional photos taken by the developer using his android smartphone.
 
 ### iFrame
