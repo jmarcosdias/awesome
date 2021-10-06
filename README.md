@@ -81,18 +81,18 @@ Test Result: Success.
 
 Test performed on a smartphone Huawei Mate 20 Lite, using Google Chrome Version 94.0.4606.61. 
 
-<img src="assets/images/tst-smartphone-index-top.jpg"                        alt="test evidence home top" width="200"/>                         </span>
-<img src="assets/images/tst-smartphone-index-bottom.jpg"                     alt="test evidence home bottom" width="200"/>                      </span> 
-<img src="assets/images/tst-smartphone-walks-top.jpg"                        alt="test evidence walks top" width="200"/>                        </span>
-<img src="assets/images/tst-smartphone-walks-bottom.jpg"                     alt="test evidence walks bottom" width="200"/>                     </span>
-<img src="assets/images/tst-smartphone-walks-promenade-cathedral-top.jpg"    alt="test evidence walks promenade cathedral top" width="200"/>    </span>
-<img src="assets/images/tst-smartphone-walks-promenade-cathedral-bottom.jpg" alt="test evidence walks promenade cathedral bottom" width="200"/> </span>
-<img src="assets/images/tst-smartphone-walks-promenade-garden.jpg"           alt="test evidence walks promenade garden" width="200"/>           </span>
-<img src="assets/images/tst-smartphone-get-here-top.jpg"                     alt="test evidence get here top" width="200"/>                     </span>
-<img src="assets/images/tst-smartphone-get-here-bottom.jpg"                  alt="test evidence get here bottom" width="200"/>                  </span>
-<img src="assets/images/tst-smartphone-get-here-zoom-in.jpg"                 alt="test evidence get here zoom in" width="200"/>                 </span>
-<img src="assets/images/tst-smartphone-get-here-satellite.jpg"               alt="test evidence get here satellite" width="200"/>               </span>
-<img src="assets/images/tst-smartphone-huawei-mate-20-lite.jpg"              alt="test evidence huawei mate 20 lite" width="200"/>              </span>
+<span> <img src="assets/images/tst-smartphone-index-top.jpg"                        alt="test evidence home top" width="200"/>                         </span>
+<span> <img src="assets/images/tst-smartphone-index-bottom.jpg"                     alt="test evidence home bottom" width="200"/>                      </span> 
+<span> <img src="assets/images/tst-smartphone-walks-top.jpg"                        alt="test evidence walks top" width="200"/>                        </span>
+<span> <img src="assets/images/tst-smartphone-walks-bottom.jpg"                     alt="test evidence walks bottom" width="200"/>                     </span>
+<span> <img src="assets/images/tst-smartphone-walks-promenade-cathedral-top.jpg"    alt="test evidence walks promenade cathedral top" width="200"/>    </span>
+<span> <img src="assets/images/tst-smartphone-walks-promenade-cathedral-bottom.jpg" alt="test evidence walks promenade cathedral bottom" width="200"/> </span>
+<span> <img src="assets/images/tst-smartphone-walks-promenade-garden.jpg"           alt="test evidence walks promenade garden" width="200"/>           </span>
+<span> <img src="assets/images/tst-smartphone-get-here-top.jpg"                     alt="test evidence get here top" width="200"/>                     </span>
+<span> <img src="assets/images/tst-smartphone-get-here-bottom.jpg"                  alt="test evidence get here bottom" width="200"/>                  </span>
+<span> <img src="assets/images/tst-smartphone-get-here-zoom-in.jpg"                 alt="test evidence get here zoom in" width="200"/>                 </span>
+<span> <img src="assets/images/tst-smartphone-get-here-satellite.jpg"               alt="test evidence get here satellite" width="200"/>               </span>
+<span> <img src="assets/images/tst-smartphone-huawei-mate-20-lite.jpg"              alt="test evidence huawei mate 20 lite" width="200"/>              </span>
 
 Test Result: Success.
 
@@ -100,9 +100,9 @@ Test Result: Success.
 
 Below are the mockups of the three pages as they can be seen in different devices, using the Am I Responsive website.
 
-<img src="assets/images/tst-index-mockup.png"                        alt="test evidence home using am I responsive werbite" width="200"/>               </span>
-<img src="assets/images/tst-walks-mockup.png"                        alt="test evidence walks using am I responsive werbite" width="200"/>              </span>
-<img src="assets/images/tst-get-here-mockup.png"                     alt="test evidence get here using am I responsive werbitep" width="200"/>          </span>
+<span> <img src="assets/images/tst-index-mockup.png"                        alt="test evidence home using am I responsive werbite" width="200"/>               </span>
+<span> <img src="assets/images/tst-walks-mockup.png"                        alt="test evidence walks using am I responsive werbite" width="200"/>              </span>
+<span> <img src="assets/images/tst-get-here-mockup.png"                     alt="test evidence get here using am I responsive werbitep" width="200"/>          </span>
 
 Test Result: Success.
 
@@ -119,7 +119,7 @@ Test Result: Success.
 
 ### Unfixed Bugs
 
-The Walking in Cobh website does not look good in Internet Explorer on a laptop, at least. If for some reason is required to use Internet Explorer, this issue must be investigated.
+The Walking in Cobh website does not look good in Internet Explorer, on a laptop at least. If for some reason is required to use Internet Explorer, this issue must be investigated.
 
 ## Deployment
 
@@ -149,13 +149,13 @@ The live link for the Walk in Cobh website can be found [here](https://jmarcosdi
 - The following pictures were taken from [Pixabay](https://pixabay.com). These pictures are free for commercial and noncommercial use.
 
   - https://pixabay.com/photos/cobh-cove-houses-pastel-285147/  
-    <img src="assets/images/hero-image.jpg" alt="Eight coloured houses in a row and six more coloured houses in a row below" width="100"/>
+    <div><img src="assets/images/hero-image.jpg" alt="Eight coloured houses in a row and six more coloured houses in a row below" width="200"/></div>
     
   - https://pixabay.com/photos/west-view-house-terrace-cobh-cork-2333252/ 
-    <img src="assets/images/west-view.jpg" alt="Very steep hill with colored houses" width="100"/>
+    <div><img src="assets/images/west-view.jpg" alt="Very steep hill with colored houses" width="200"/></div>
     
   - https://pixabay.com/illustrations/hexagon-diamond-leisure-traveller-1743535/
-    <img src="assets/images/get-here.png" alt="An hexagonal picture showing different icons for car, train, plane, bus, boat and a person seated with a clock in the wall given the impression this person is waiting" width="100"/> 
+    <div><img src="assets/images/get-here.png" alt="An hexagonal picture showing different icons for car, train, plane, bus, boat and a person seated with a clock in the wall given the impression this person is waiting" width="200"/></div>
   
 - Other pictures used in the Walks page are non professional photos taken by the developer using his android smartphone.
 
