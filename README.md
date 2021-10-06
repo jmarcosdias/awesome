@@ -63,7 +63,9 @@ A survey to collect user's feedback is something that can also be included later
 
 ## Testing 
 
-The test approach was to validate in different browsers and devices, navigating, scrolling, clicking in every link, zooming in and out in the Cobh map and changing the size of the viewport, to make sure the website is working and looking good in every situation. 
+The test approach consisted of validating on different browsers and devices, navigating, scrolling, clicking in every link, zooming in and out in the map that is in the Get Here page and changing the size of the viewport, to make sure the website is working and looking good in every situation.
+
+For a detailed visual example of the tests performed in different devices, please take a look at the Mobile Phone section.
 
 ### Laptop
 
@@ -73,11 +75,11 @@ With different display resolutions, the test was successful in the following bro
 * Microsoft Edge Version 94.0.992.38
 * Firefox Version Version 94.0.992.38
 
+Test Result: Success.
+
 ### Mobile Phone
 
-Test performed with a successful result using Google Chrome Version 94.0.4606.61 in a smartphone Huawei Mate 20 Lite.
-
-As an example of some tests performed in different devices, the images below show some tests on a smartphone.
+Test performed on a smartphone Huawei Mate 20 Lite, using Google Chrome Version 94.0.4606.61. 
 
 <img src="assets/images/tst-smartphone-index-top.jpg"                        alt="test evidence home top" width="200"/>                         </span>
 <img src="assets/images/tst-smartphone-index-bottom.jpg"                     alt="test evidence home bottom" width="200"/>                      </span> 
@@ -92,18 +94,25 @@ As an example of some tests performed in different devices, the images below sho
 <img src="assets/images/tst-smartphone-get-here-satellite.jpg"               alt="test evidence get here satellite" width="200"/>               </span>
 <img src="assets/images/tst-smartphone-huawei-mate-20-lite.jpg"              alt="test evidence huawei mate 20 lite" width="200"/>              </span>
 
+Test Result: Success.
+
 ### Am I Responsive Website
 
-Below are the mockups of the three pages as they can seen in different devices, using the Am I Responsive website.
+Below are the mockups of the three pages as they can be seen in different devices, using the Am I Responsive website.
 
 <img src="assets/images/tst-index-mockup.png"                        alt="test evidence home using am I responsive werbite" width="200"/>               </span>
 <img src="assets/images/tst-walks-mockup.png"                        alt="test evidence walks using am I responsive werbite" width="200"/>              </span>
 <img src="assets/images/tst-get-here-mockup.png"                     alt="test evidence get here using am I responsive werbitep" width="200"/>          </span>
 
+Test Result: Success.
+
 ### Validator Testing -- UNDER CONSTRUCTION - STOPPED HERE 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing the following links through the official [W3C validator](https://validator.w3.org/)
+    - https://jmarcosdias.github.io/awesome/index.html
+    - https://jmarcosdias.github.io/awesome/walks.html
+    - https://jmarcosdias.github.io/awesome/get-here.html
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
