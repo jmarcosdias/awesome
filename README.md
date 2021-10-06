@@ -109,21 +109,25 @@ Test Result: Success.
 ### Validator Testing -- UNDER CONSTRUCTION - STOPPED HERE 
 
 - HTML
-  - No errors were returned when passing the following links through the official [W3C validator](https://validator.w3.org/)
+  - No errors were returned when passing the following URI through the official [W3C Validator](https://validator.w3.org/)
     - https://jmarcosdias.github.io/awesome/index.html
     - https://jmarcosdias.github.io/awesome/walks.html
     - https://jmarcosdias.github.io/awesome/get-here.html
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing the following URI through the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/)
+    - https://jmarcosdias.github.io/awesome/assets/css/style.css
 
 ### Unfixed Bugs
 
-...
+The Walking in Cobh website does not seem to look good when using Internet Explorer in a laptop. If for some reason is required to use Internet Explorer, this issue must be investigated.
 
 ## Deployment
 
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate first to the Settings tab and then to the GitHub Pages tab.
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+  - In the GitHub repository, 
+  - Navigate to the Settings tab 
+  - Scroll down to the GitHub Pages tab
+  - 
   - From the source section drop-down menu, select the main branch and then Save this change.
 
 The live link can be found here - https://jmarcosdias.github.io/awesome/index.html 
