@@ -75,12 +75,22 @@ With different display resolutions, the test was successful in the following bro
 
 ### Mobile Phone
 
-Test performed and got a successful result using Google Chrome Version 94.0.4606.61 in a smartphone Huawei Mate 20 Lite.
+Test performed with a successful result using Google Chrome Version 94.0.4606.61 in a smartphone Huawei Mate 20 Lite.
 
-As an example of the tests performed in different devices, the images below show the tests on a smartphone.
+As an example of some tests performed in different devices, the images below show some tests on a smartphone.
 
-
-
+<img src="assets/images/tst-smartphone-index-top.jpg"                        alt="test evidence home top" width="200"/>                         </span>
+<img src="assets/images/tst-smartphone-index-bottom.jpg"                     alt="test evidence home bottom" width="200"/>                      </span> 
+<img src="assets/images/tst-smartphone-walks-top.jpg"                        alt="test evidence walks top" width="200"/>                        </span>
+<img src="assets/images/tst-smartphone-walks-bottom.jpg"                     alt="test evidence walks bottom" width="200"/>                     </span>
+<img src="assets/images/tst-smartphone-walks-promenade-cathedral-top.jpg"    alt="test evidence walks promenade cathedral top" width="200"/>    </span>
+<img src="assets/images/tst-smartphone-walks-promenade-cathedral-bottom.jpg" alt="test evidence walks promenade cathedral bottom" width="200"/> </span>
+<img src="assets/images/tst-smartphone-walks-promenade-garden.jpg"           alt="test evidence walks promenade garden" width="200"/>           </span>
+<img src="assets/images/tst-smartphone-get-here-top.jpg"                     alt="test evidence get here top" width="200"/>                     </span>
+<img src="assets/images/tst-smartphone-get-here-bottom.jpg"                  alt="test evidence get here bottom" width="200"/>                  </span>
+<img src="assets/images/tst-smartphone-get-here-zoom-in.jpg"                 alt="test evidence get here zoom in" width="200"/>                 </span>
+<img src="assets/images/tst-smartphone-get-here-satellite.jpg"               alt="test evidence get here satellite" width="200"/>               </span>
+<img src="assets/images/tst-smartphone-huawei-mate-20-lite.jpg"              alt="test evidence huawei mate 20 lite" width="200"/>              </span>
 
 ### Validator Testing 
 
