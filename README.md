@@ -95,7 +95,7 @@ With different display resolutions, the test was successful in the following bro
 
 * Google Chrome Version 94.0.4606.71
 * Microsoft Edge Version 94.0.992.38
-* Firefox Version Version 94.0.992.38
+* Firefox Version 93.0
 
 Test Result: 
 * Success in Google Chrome, Microsoft Edge and Firefox
