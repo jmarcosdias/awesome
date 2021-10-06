@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Walking in Cobh website is dedicated to invite people to visit Cobh. It is intended to invite people who love to walk, to come to walk in Cobh.
+<em>Walking in Cobh</em> website is dedicated to invite people to visit Cobh. It is intended to invite people who love to walk, to come to walk in Cobh.
 
 ![Responsive Mockup](assets/images/tst-index-mockup.png)
 
@@ -40,7 +40,7 @@ The footer has the same colours and appearance all over the website, like the he
 
 - __The Walks Page__
 
-The walks page contains the set of short walks suggested to the users. The idea is that the users will browse this page, see the pictures, read some text if they like and then decide where they want to walk. The first version of Walking in Cobh has only three walks. More walks are expected to be added in further releases.
+The walks page contains the set of short walks suggested to the users. The idea is that the users will browse this page, see the pictures, read some text if they like and then decide where they want to walk. The first version of <em>Walking in Cobh</em> has only three walks. More walks are expected to be added in further releases.
 
 In terms of HTML, each walk is a \<div\> element with class of walk. It has the following elements inside, in this order:
 1. A heading level 2 element. This is the heading of the walk.
@@ -53,7 +53,7 @@ The classes defined in the HTML are then used in the CSS code to style the borde
 
 The Get Here page contains:
 1. Some external links to Cobh public transportation websites 
-2. A map to help the user to get in Cobh. This map allows the user to initiate and control actions such as zoom in, zoom out and drag the map in any direction. Walking in Cobh  thanks Google for this map.
+2. A map to help the user to get in Cobh. This map allows the user to initiate and control actions such as zoom in, zoom out and drag the map in any direction. <em>Walking in Cobh</em>  thanks Google for this map.
 
 The colours that appear on the other two pages are used here in this page. This hopefully makes the user experience more familiar and enjoyable.
 
@@ -66,19 +66,9 @@ A survey to collect user's feedback is something that can also be included later
 
 ## Testing 
 
-The test approach consisted of validating on different browsers and devices, navigating, scrolling, clicking in every link, zooming in and out in the map that is in the Get Here page and changing the size of the viewport, to make sure the website is working and looking good in every situation.
+The test approach consisted of validating on different browsers and devices, navigating, scrolling, clicking in every link, zooming in and out in the map that is in the Get Here page, changing the size of the viewport and trying to reproduce every scenario a user might come across. This is to ensure that the website is working and looking good in all situations.
 
-For a detailed visual example of the tests performed in different devices, please take a look at the Mobile Phone section.
-
-### Laptop
-
-With different display resolutions, the test was successful in the following browsers:
-
-* Google Chrome Version 94.0.4606.71
-* Microsoft Edge Version 94.0.992.38
-* Firefox Version Version 94.0.992.38
-
-Test Result: Success.
+For a detailed visual example of some tests that were performed in different devices, please take a look at the Mobile Phone section. In other devices, a similar test was carried out.
 
 ### Mobile Phone
 
@@ -99,13 +89,25 @@ Test performed on a smartphone Huawei Mate 20 Lite, using Google Chrome Version 
 
 Test Result: Success.
 
+### Laptop
+
+With different display resolutions, the test was successful in the following browsers:
+
+* Google Chrome Version 94.0.4606.71
+* Microsoft Edge Version 94.0.992.38
+* Firefox Version Version 94.0.992.38
+
+Test Result: 
+* Success in Google Chrome, Microsoft Edge and Firefox
+* In the Internet Explorer, the website does not look good
+
 ### Am I Responsive Website
 
 Below are the mockups of the three pages as they can be seen in different devices, using the Am I Responsive website.
 
-<span> <img src="assets/images/tst-index-mockup.png"                        alt="test evidence home using am I responsive werbite" width="200"/>               </span>
-<span> <img src="assets/images/tst-walks-mockup.png"                        alt="test evidence walks using am I responsive werbite" width="200"/>              </span>
-<span> <img src="assets/images/tst-get-here-mockup.png"                     alt="test evidence get here using am I responsive werbitep" width="200"/>          </span>
+<span> <img src="assets/images/tst-index-mockup.png"      alt="test evidence home using am I responsive werbite" width="200"/>               </span>
+<span> <img src="assets/images/tst-walks-mockup.png"      alt="test evidence walks using am I responsive werbite" width="200"/>              </span>
+<span> <img src="assets/images/tst-get-here-mockup.png"   alt="test evidence get here using am I responsive werbitep" width="200"/>          </span>
 
 Test Result: Success.
 
@@ -122,7 +124,12 @@ Test Result: Success.
 
 ### Unfixed Bugs
 
-The Walking in Cobh website does not look good using Internet Explorer, at least on a laptop. If for some reason Walking in Cobh is required to be used with Internet Explorer, this issue must be investigated.
+The <em>Walking in Cobh</em> website does not look good using Internet Explorer, at least on a laptop. 
+
+Microsoft is retiring Internet Explorer. Anyway, if for some reason <em>Walking in Cobh</em> is required to be used with Internet Explorer, the above issue must be investigated.
+
+About Internet Explorer and Edge:
+https://docs.microsoft.com/en-us/lifecycle/faq/internet-explorer-microsoft-edge
 
 ## Deployment
 
@@ -142,14 +149,15 @@ The live link for the Walk in Cobh website can be found [here](https://jmarcosdi
 
 ### Content 
 
-- The icons in the navigation menu were taken from the free section of [Font Awesome](https://fontawesome.com/) icons.
+- The icons in the navigation menu were taken from the free section of [Font Awesome](https://fontawesome.com/) icons:
+
   - https://fontawesome.com/v5.15/icons/home?style=solid
   - https://fontawesome.com/v5.15/icons/walking?style=solid
   - https://fontawesome.com/v5.15/icons/plane-arrival?style=solid
 
 ### Media
 
-- The following pictures were taken from [Pixabay](https://pixabay.com). These pictures are free for commercial and noncommercial use.
+- The following pictures were taken from [Pixabay](https://pixabay.com). These pictures are free for commercial and noncommercial use:
 
   - https://pixabay.com/photos/cobh-cove-houses-pastel-285147/  
     <div><img src="assets/images/hero-image.jpg" alt="Eight coloured houses in a row and six more coloured houses in a row below" width="200"/></div>
