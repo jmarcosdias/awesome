@@ -168,11 +168,11 @@ The live link for the Walk in Cobh website can be found [here](https://jmarcosdi
   - https://pixabay.com/illustrations/hexagon-diamond-leisure-traveller-1743535/
     <div><img src="assets/images/get-here.png" alt="An hexagonal picture showing different icons for car, train, plane, bus, boat and a person seated with a clock in the wall given the impression this person is waiting" width="200"/></div>
   
-- Other pictures used in the Walks page are non professional photos taken by the developer using his android smartphone.
+- Other pictures used in the Walks page are non professional photos taken by the developer, using his android smartphone.
 
 ### iFrame
 
-The map inside the Get Here page is an iFrame with the Google Map of Cobh.
+The map inside the Get Here page is an iFrame with the Google Map of Cobh:
 - https://maps.google.com/maps?q=Cobh,Ireland&output=embed
 
 ### External Links
