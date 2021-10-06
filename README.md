@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Walking in Cobh website is dedicated to invite people to visit Cobh. It is intended to invite people who love to walk to come to walk in Cobh.
+Walking in Cobh website is dedicated to invite people to visit Cobh. It is intended to invite people who love to walk, to come to walk in Cobh.
 
 ![Responsive Mockup](assets/images/tst-index-mockup.png)
 
@@ -12,31 +12,31 @@ Walking in Cobh website is dedicated to invite people to visit Cobh. It is inten
 
 - __Navigation Menu__
 
-Located where the user expects this kind of element to be located, i.e. on the top of each page, the navigation menu is presented with same colors and same general appearance all over the pages. It is a responsive element and it also gives the users a clue about where they are in the site.
+Located where the user expects this kind of element to be, i.e. on the top of each page, the navigation menu is presented with same colours and same general appearance all over the pages. It is a responsive element and it also gives the users a clue about where they are in the website.
 
-In terms of HTML structure, the navigation menu is a NAV element located in the header section of each page, along with the logo text which is a heading level 1 element.
+In terms of HTML structure, the navigation menu is a <nav> element, located in the header section of each page, along with the logo text which is a heading level 1 element.
 
 - __The Landing Page__
 
-With a beautiful picture of the Cobh coloured houses, the main section of this page is inviting the user to come to Cobh.
+With a beautiful picture of some Cobh coloured houses, the main section of this page is inviting the user to come to Cobh.
 
-There is a message popping up saying "Come to Cobh" (hero-text). This is the most important message of the landing page. 
+There is a message popping up saying "Come to Cobh" (hero-text). This is the most important message of the entire website. 
 
-In the HTML, the hero-text is a div that is a child of the hero-image div. 
+In the HTML, the hero-text is a <div> element that is a child of the hero-image <div>.
 
-In the CSS, hero-image is positioned with a relative position and hero-text is positioned with an absolute position. This way hero-text is positioned in relation to hero-image.
+In the CSS, hero-image is positioned with a relative position while hero-text is positioned with an absolute position. This makes hero-text to be positioned in relation to hero-image.
 
-In the HTML, there is also an aside, with id useful-links, child of hero-image. This is to provide some external links with information that might interest the user. 
+In the HTML, there is an aside, with id="useful-links", child of hero-image. This element exists to provide some extra and external information that might interest the user.
 
-In the CSS, that aside is styled to appear clearly less important than hero-text. It is smaller, not animated, the border is thinner, the stack order is smaller (z-index) and it is positioned in a less priority position in the page.
+In the CSS, the useful-links aside is styled to appear clearly less important than the hero-text div. It is smaller, not animated, the border is thinner, the stack order is lower (i.e., it has a lower z-index) and it is positioned in a lower priority location on the page.
 
-Like hero-text, the useful-links element is positioned in relation to hero-image.
+In regard to the position attribute of useful-links and the position attribute of its first positioned ancestor, like hero-text, the useful-links element is positioned in relation to hero-image.
 
 - __The Footer__
 
 The footer is very simple and with a small copyright text. This text is less relevant in relation to the rest of the website so it is always smaller than the text in the main section and in the header section.
 
-The footer has the same colors and appearance all over the website, like the header.
+The footer has the same colours and appearance all over the website, like the header.
 
 - __The Walks Page__
 
@@ -50,7 +50,7 @@ The classes defined in the HTML are then used in the CSS code to style the borde
 
 The Get Here page contains some external links to public transports in Cobh and a map to help the user to get in Cobh. 
 
-The colors that appear on the other two pages are used here to enhance the user experience.
+The colours that appear on the other two pages are used here to enhance the user experience.
 
 Thanks to Google for the Google Map of Cobh that is placed here by using an iframe.
 
@@ -123,7 +123,7 @@ The Walking in Cobh website does not look good in Internet Explorer, on a laptop
 
 ## Deployment
 
-The site was deployed to GitHub pages. The steps to deploy are as follows. 
+The website was deployed to GitHub pages. The steps to deploy are as follows. 
 
 In the GitHub repository:
   - Navigate to the Settings tab 
@@ -139,7 +139,7 @@ The live link for the Walk in Cobh website can be found [here](https://jmarcosdi
 
 ### Content 
 
-- The icons in the navigation menu were taken from [Font Awesome](https://fontawesome.com/)
+- The icons in the navigation menu were taken from the free section of [Font Awesome](https://fontawesome.com/) icons.
   - https://fontawesome.com/v5.15/icons/home?style=solid
   - https://fontawesome.com/v5.15/icons/walking?style=solid
   - https://fontawesome.com/v5.15/icons/plane-arrival?style=solid
@@ -152,7 +152,7 @@ The live link for the Walk in Cobh website can be found [here](https://jmarcosdi
     <div><img src="assets/images/hero-image.jpg" alt="Eight coloured houses in a row and six more coloured houses in a row below" width="200"/></div>
     
   - https://pixabay.com/photos/west-view-house-terrace-cobh-cork-2333252/ 
-    <div><img src="assets/images/west-view.jpg" alt="Very steep hill with colored houses" width="200"/></div>
+    <div><img src="assets/images/west-view.jpg" alt="Very steep hill with coloured houses" width="200"/></div>
     
   - https://pixabay.com/illustrations/hexagon-diamond-leisure-traveller-1743535/
     <div><img src="assets/images/get-here.png" alt="An hexagonal picture showing different icons for car, train, plane, bus, boat and a person seated with a clock in the wall given the impression this person is waiting" width="200"/></div>
@@ -161,7 +161,7 @@ The live link for the Walk in Cobh website can be found [here](https://jmarcosdi
 
 ### iFrame
 
-The map in the Get Here page is an iFrame with a Google Map.
+The map inside the Get Here page is an iFrame with the Google Map of Cobh.
 - https://maps.google.com/maps?q=Cobh,Ireland&output=embed
 
 ### External Links
@@ -179,4 +179,3 @@ The map in the Get Here page is an iFrame with a Google Map.
     - http://crossriverferries.ie/
   - <a href="http://www.acabscobh.ie/" target="_blank">A Cabs Cobh</a> 
     - http://www.acabscobh.ie/
-
