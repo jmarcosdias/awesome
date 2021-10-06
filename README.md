@@ -52,7 +52,7 @@ The classes defined in the HTML are then used in the CSS code to style the borde
 - __The Get Here Page__
 
 The Get Here page contains:
-1. Some external links to Cobh public transportation websites 
+1. Some external links to Cobh public transportation websites. 
 2. A map to help the user to get in Cobh. This map allows the user to initiate and control actions such as zoom in, zoom out and drag the map in any direction. <em>Walking in Cobh</em>  thanks Google for this map.
 
 The colours that appear on the other two pages are used here in this page. This hopefully makes the user experience more familiar and enjoyable.
