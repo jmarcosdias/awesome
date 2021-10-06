@@ -92,7 +92,15 @@ As an example of some tests performed in different devices, the images below sho
 <img src="assets/images/tst-smartphone-get-here-satellite.jpg"               alt="test evidence get here satellite" width="200"/>               </span>
 <img src="assets/images/tst-smartphone-huawei-mate-20-lite.jpg"              alt="test evidence huawei mate 20 lite" width="200"/>              </span>
 
-### Validator Testing 
+### Am I Responsive Website
+
+Below are the mockups of the three pages as they can seen in different devices, using the Am I Responsive website.
+
+<img src="assets/images/tst-index-mockup.png"                        alt="test evidence home using am I responsive werbite" width="200"/>               </span>
+<img src="assets/images/tst-walks-mockup.png"                        alt="test evidence walks using am I responsive werbite" width="200"/>              </span>
+<img src="assets/images/tst-get-here-mockup.png"                     alt="test evidence get here using am I responsive werbitep" width="200"/>          </span>
+
+### Validator Testing -- UNDER CONSTRUCTION - STOPPED HERE 
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
