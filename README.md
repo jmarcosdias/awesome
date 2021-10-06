@@ -114,13 +114,13 @@ Test Result: Success.
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing the following URI through the official [W3C Validator](https://validator.w3.org/)
-    - https://jmarcosdias.github.io/awesome/index.html
-    - https://jmarcosdias.github.io/awesome/walks.html
-    - https://jmarcosdias.github.io/awesome/get-here.html
+  - No errors were returned when passing the URI of the three pages through the official [W3C Validator](https://validator.w3.org/)
+    - https://validator.w3.org/nu/?doc=https%3A%2F%2Fjmarcosdias.github.io%2Fawesome%2Findex.html
+    - https://validator.w3.org/nu/?doc=https%3A%2F%2Fjmarcosdias.github.io%2Fawesome%2Fwalks.html
+    - https://validator.w3.org/nu/?doc=https%3A%2F%2Fjmarcosdias.github.io%2Fawesome%2Fget-here.html
 - CSS
-  - No errors were found when passing the following URI through the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/)
-    - https://jmarcosdias.github.io/awesome/assets/css/style.css
+  - No errors were found when passing the URI of the styles.css file through the official [(Jigsaw) Validator](https://jigsaw.w3.org/css-validator/)
+    - https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fjmarcosdias.github.io%2Fawesome%2Fassets%2Fcss%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en
 
 ### Unfixed Bugs
 
