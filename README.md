@@ -106,7 +106,7 @@ Below are the mockups of the three pages as they can be seen in different device
 
 Test Result: Success.
 
-### Validator Testing -- UNDER CONSTRUCTION - STOPPED HERE 
+### Validator Testing
 
 - HTML
   - No errors were returned when passing the following URI through the official [W3C Validator](https://validator.w3.org/)
@@ -166,4 +166,17 @@ The map in the Get Here page is an iFrame with a Google Map.
 
 ### External Links
 
+- The following external links are used in the Home page:
+    - <a href="http://www.visitcobh.com/" target="_blank">Visit Cobh</a> (http://www.visitcobh.com/)
+    - <a href="https://purecork.ie/plan-your-trip/about-cork/destinations/cobh" target="_blank">Pure Cork: plan your trip to Cobh</a> (https://purecork.ie/plan-your-trip/about-cork/destinations/cobh)
+
+- The external links below are used in the Get Here page:
+  - <a href="https://www.irishrail.ie/en-ie/station/cobh" target="_blank">Irish Rail</a> 
+    - https://www.irishrail.ie/en-ie/station/cobh
+  - <a href="https://www.cobhconnect.ie/" target="_blank">Cobh Connect</a>
+    - https://www.cobhconnect.ie/
+  - <a href="http://crossriverferries.ie/" target="_blank">Cross River Ferries</a> 
+    - http://crossriverferries.ie/
+  - <a href="http://www.acabscobh.ie/" target="_blank">A Cabs Cobh</a> 
+    - http://www.acabscobh.ie/
 
